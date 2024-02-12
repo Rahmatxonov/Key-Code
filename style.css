@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Quando&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quando", serif;
+  background-color: antiquewhite;
+}
+.main {
+  max-width: 900px;
+  width: 100%;
+  margin: 300px auto;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.main > div {
+  text-align: center;
+}
+.key1,
+.key2,
+.key3 {
+  background-color: rgba(133, 133, 133, 0.518);
+  width: 300px;
+  padding: 30px 50px;
+  margin-top: 20px;
+  font-size: 32px;
+}
